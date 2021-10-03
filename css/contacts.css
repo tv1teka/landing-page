@@ -1,0 +1,47 @@
+.contact-us {
+  border: 1px solid blue;
+  text-align: center;
+}
+.contact-us__title {
+  font-size: 48px;
+  margin: 35px auto;
+}
+.contact-us__subtitle {
+  font-size: 20px;
+  margin: 35px auto;
+}
+
+/* _______________ */
+
+.contacts {
+  border: 1px solid purple;
+  padding-top: 50px;
+}
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.contacts__info {
+  width: 45%;
+  border: 3px solid green;
+  height: 700px;
+}
+.contacts__list {
+  list-style-type: none;
+}
+.title-h4 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #1f3f68;
+}
+.main-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1f3f68;
+}
+.sending-form {
+  width: 45%;
+  border: 3px solid black;
+  height: 700px;
+}

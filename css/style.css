@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
+}
+.intro {
+  height: 768px;
+  background: linear-gradient(
+    0deg,
+    #ebf3fb 8.84%,
+    rgba(152, 195, 232, 0) 31.12%
+  );
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 42px;
+}
+.intro__content {
+  padding-top: 115px;
+}
+.intro__title {
+  width: 510px;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+  margin-bottom: 32px;
+}
+.top__text {
+  width: 425px;
+}
+.top__button {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #5a98d0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  padding: 15px 50px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 71px;
+}
+/* ________ */
+
+.what-we-do {
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+.what-we-do__title {
+  color: black;
+  text-align: center;
+  font-weight: 200;
+  font-size: 48px;
+}
+.offer {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.offer__item {
+  width: 359px;
+  height: 450px;
+  border: 3px solid rgb(156, 13, 144);
+  padding: 30px;
+  text-align: left;
+}
+.item__title {
+  font-size: 20px;
+  line-height: 30px;
+  color: #1f3f68;
+  margin-top: 120px;
+  margin-bottom: 10px;
+}
+.item__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1f3f68;
+}
+
+/* _____________ */
+.our-project {
+  border: 3px solid red;
+  padding-bottom: 45px;
+  margin-bottom: 50px;
+}
+
+.our-project__title {
+  color: black;
+  text-align: center;
+  font-weight: 200;
+  font-size: 48px;
+  margin: 20px auto 30px auto;
+}
+.our-project__text {
+  font-size: 20px;
+  line-height: 26px;
+  color: #1f3f68;
+  text-align: center;
+}
+
+/* ___________________ */
+
+.footer {
+  border: 1px solid red;
+}
+.lets-talk {
+  padding: 50px 0 30px 0;
+}
+.lets-talk__content {
+  width: 495px;
+  height: 300px;
+  border: 3px solid rgb(214, 84, 214);
+}
+.lets-talk__title {
+  width: 340px;
+  color: black;
+  font-weight: 200;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.lets-talk__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1f3f68;
+}
+
+hr {
+  border-color: gray;
+  height: 3px;
+  margin: 10px auto;
+}
+
+.info {
+  padding: 35px 0;
+}
+.info__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.copyright {
+  margin-top: 40px;
+}
