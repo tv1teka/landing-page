@@ -8,12 +8,12 @@
     <title>landing Page</title>
 </head>
 <body>
-    <header class="intro">
+    <div class="intro">
         <div class="container top__box">
-                <ul class="header">
-                    <li><a href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
-                    <li><a href="contacts.html"><img src="img/contacts.svg" alt="contacts"></a></li>
-                </ul>
+            <ul class="header">
+                <li><a href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
+                <li><a href="contacts.html"><img src="img/contacts.svg" alt="contacts"></a></li>
+            </ul>
             <div class="intro__content">
                 <h1 class="intro__title">New Automation<br>Tool for Your</h1>
                 <p class="text top__text">Lorem ipsum dolor sit amet consectetur, adipisicing<br> 
@@ -22,27 +22,33 @@
                 <a href="#" class="top__button">See Our Project</a>
             </div>
         </div>
-    </header>
+    </div>
 
     <section class="what-we-do container">
         <h3 class="what-we-do__title">What we do to help our client grow in digital era</h3>
         <div class="offer">
             <div class="offer__item">
-                <img src="img/card_1.svg" alt="card_1" class="card_img-1">
+                <div class="item__img">
+                    <img src="img/card_1.svg" alt="card-picture">
+                </div>
                 <h4 class="item__title">Make Your business To Be<br>Better Famaous In Internet</h4>
                 <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Tenetur ratione voluptatibus officiis nemo ipsa at, id iusto eveniet. Iusto, nostrum.</p>
                 <a href="#" class="card__link">Learn more<img src="img/link__arrow.svg" alt="arrow" class="link__arrow"></a>
             </div>
             <div class="offer__item">
-                <img src="img/card_2.svg" alt="card_2">
+                <div class="item__img">
+                    <img src="img/card_2.svg" alt="card-picture">
+                </div>
                 <h4 class="item__title">Bring Technology To Your<br>Comfrotable Home</h4>
                 <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Tenetur ratione voluptatibus officiis nemo ipsa at, id iusto eveniet. Iusto, nostrum.</p>
                 <a href="#" class="card__link">Learn more<img src="img/link__arrow.svg" alt="arrow" class="link__arrow"></a>
             </div>
             <div class="offer__item">
-                <img src="img/card_3.svg" alt="card_3">
+                <div class="item__img">
+                    <img src="img/card_3.svg" alt="card-picture">
+                </div>
                 <h4 class="item__title">Build Your Digital Product<br>That Suitable For Your Need</h4>
                 <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Tenetur ratione voluptatibus officiis nemo ipsa at, id iusto eveniet. Iusto, nostrum.</p>
@@ -56,42 +62,40 @@
         <p class="our-project__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         <div class="project__item">
-            <img src="img/project-1.png" alt="project-photo">
+            <img src="img/project-1.png" alt="project-photo" class="project__img">
             <p class="project__text">Smart Home Installation</p>
         </div>
         <div class="project__parent">
-            <div class="project__item">
-                <img src="img/project-2.png" alt="project-photo">
+            <div class="project__item project__item__margin">
+                <img src="img/project-2.png" alt="project-photo" class="project__img">
                 <p class="project__text-2">Sparklite App</p>
             </div>
             <div class="project__item">
-                <img src="img/project-3.png" alt="project-photo">
+                <img src="img/project-3.png" alt="project-photo" class="project__img">
                 <p class="project__text-2">Car-Rapetition App</p>
             </div>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <div class="lets-talk">
-                <div class="lets-talk__content">
-                    <h3 class="lets-talk__title">Intersted to work<br>with our team?</h3>
-                    <p class="lets-talk__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Pariatur rem reiciendis doloremque culpa, perferendis enim dolores doloribus tempora libero ducimus!</p>
-                </div>
+        <div class="lets-talk container">
+            <div class="lets-talk__content">
+                <h3 class="lets-talk__title">Intersted to work<br>with our team?</h3>
+                <p class="lets-talk__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Pariatur rem reiciendis doloremque culpa, perferendis enim dolores doloribus tempora libero ducimus!</p>
+            </div>
+            <div class="footer__link"> 
                 <a href="#" class="footer__button">Let’s Talk</a>
             </div>
-            <hr>
-            <div class="info">
-                <ul class="info__list">
-                    <li>Кремниевая долина, Уильямс роуд 1</li>
-                    <li>+79787978797</li>
-                    <li>haker208@gmail.com</li>
-                </ul>
-                <div class="copyright">
-                    <p class="main-text">©Все права защищены</p>
-                </div>    
-            </div>
+        </div>
+        <hr>
+        <div class="info container">
+            <ol class="info__list">
+                <li>Кремниевая долина, Уильямс роуд 1</li>
+                <li><a href = "tel:+79787775777">+79787775777</a></li>
+                <li><a href="mailto:haker208@gmail.com">haker208@gmail.com</a></li>
+            </ol>
+            <p class="copyright">2021 All rights reserved.</p> 
         </div>
     </footer>
 </body>
