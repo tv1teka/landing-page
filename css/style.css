@@ -121,6 +121,7 @@
 /* _____________ */
 .our-project {
   padding-top: 64px;
+  padding-bottom: 112px;
 }
 
 .our-project__title {
@@ -144,31 +145,70 @@
   display: flex;
   justify-content: space-between;
 }
+.project__item {
+  position: relative;
+}
+.project__text {
+  position: absolute;
+  top: 64px;
+  right: 64px;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.project__text-2 {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
 
 /* ___________________ */
 
 .footer {
-  border: 1px solid red;
+  background: #316099;
 }
 .lets-talk {
   padding: 50px 0 30px 0;
+  display: flex;
+  justify-content: space-between;
 }
 .lets-talk__content {
   width: 495px;
-  height: 300px;
-  border: 3px solid rgb(214, 84, 214);
 }
 .lets-talk__title {
   width: 340px;
-  color: black;
-  font-weight: 200;
-  font-size: 48px;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 .lets-talk__text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 26px;
-  color: #1f3f68;
+  letter-spacing: 0.05em;
+  color: #fff;
+  opacity: 0.6;
+}
+.footer__button {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #5a98d0;
+  padding: 15px 80px;
 }
 
 hr {
