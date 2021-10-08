@@ -4,7 +4,7 @@
   padding: 0;
 }
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 .text {
@@ -15,7 +15,7 @@
   opacity: 0.6;
 }
 .intro {
-  height: 768px;
+  min-height: 768px;
   background: linear-gradient(
     0deg,
     #ebf3fb 8.84%,
@@ -25,7 +25,7 @@
 .top__box {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 768px;
 }
 .header {
   display: flex;
@@ -38,6 +38,7 @@
   background-image: url(../img/top_bg.png);
   background-repeat: no-repeat;
   background-position: right center;
+  background-size: 45%;
   flex-grow: 1;
 }
 .intro__title {
@@ -85,7 +86,7 @@
   justify-content: space-between;
 }
 .offer__item {
-  width: 359px;
+  width: 32%;
   text-align: left;
   background: #ffffff;
   box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
@@ -124,9 +125,11 @@
 
 .our-project__title {
   color: black;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
   text-align: center;
-  font-weight: 200;
-  font-size: 48px;
+  letter-spacing: 0.05em;
   margin: 64px auto 32px auto;
 }
 .our-project__text {
@@ -177,7 +180,6 @@
 
 .footer {
   background: #316099;
-  padding-bottom: 64px;
 }
 .lets-talk {
   display: flex;
@@ -193,7 +195,6 @@
   line-height: 46px;
   letter-spacing: 0.05em;
   color: #ffffff;
-  margin-bottom: 10px;
   padding-top: 91px;
 }
 .lets-talk__text {
@@ -229,10 +230,12 @@ hr {
 
 .info {
   padding-top: 64px;
+  padding-bottom: 64px;
 }
 .info__list {
   display: flex;
   justify-content: space-between;
+  font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.05em;
@@ -254,4 +257,190 @@ hr {
   letter-spacing: 0.05em;
   color: #ffffff;
   opacity: 0.4;
+}
+
+/* MEDIA */
+
+@media (max-width: 1280px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .intro {
+    min-height: 768px;
+  }
+}
+@media (max-width: 1024px) {
+  .offer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .offer__item {
+    width: 334px;
+    margin-bottom: 32px;
+  }
+  .project__text-2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 28px;
+  }
+  .footer__button {
+    padding: 12px 60px;
+  }
+}
+@media (max-width: 768px) {
+  .intro__content {
+    background-position: right 280px;
+  }
+  .project__parent {
+    flex-direction: column;
+  }
+  .project__item__margin {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .lets-talk {
+    padding: 0 124px;
+  }
+  .lets-talk__content {
+    width: 336px;
+  }
+  .lets-talk__title {
+    width: 336px;
+    padding-top: 47px;
+  }
+  .lets-talk__text {
+    width: 336px;
+    margin-bottom: 64px;
+  }
+  .footer__button {
+    padding: 3px 31px;
+  }
+  .info {
+    padding: 64px 124px;
+  }
+  .info__list {
+    display: block;
+  }
+  .info__list__item {
+    margin-bottom: 25px;
+  }
+  .info__list__item__no-margin {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 735px) {
+  .lets-talk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 41px;
+  }
+  .lets-talk__title {
+    padding-top: 18px;
+  }
+  .lets-talk__text {
+    margin-bottom: 40px;
+  }
+  .footer__button {
+    padding: 3px 19px;
+  }
+  .info {
+    padding: 64px 32px;
+  }
+}
+@media (max-width: 667px) {
+  .intro {
+    min-height: 376px;
+    padding-bottom: 41px;
+  }
+  .top__box {
+    display: flex;
+    flex-direction: column;
+    min-height: 376px;
+  }
+  .intro__content {
+    padding-top: 36px;
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro__title {
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .top__text {
+    width: 100%;
+    text-align: center;
+  }
+  .offer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .offer__item {
+    margin-bottom: 32px;
+  }
+  .project__text {
+    top: 16px;
+    right: 8px;
+    font-size: 32px;
+    line-height: 46px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .what-we-do__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .offer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .offer__item {
+    width: 100%;
+    max-width: 334px;
+    margin-bottom: 32px;
+  }
+  .project__text {
+    top: 16px;
+    right: 16px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .project__text-2 {
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .lets-talk__content {
+    width: 100%;
+  }
+  .lets-talk__title {
+    width: 100%;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .lets-talk__text {
+    width: 100%;
+  }
+  .info {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .copyright {
+    margin-top: 37px;
+    text-align: center;
+  }
 }
