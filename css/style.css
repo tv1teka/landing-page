@@ -402,6 +402,12 @@ hr {
     font-size: 24px;
     line-height: 28px;
   }
+  .top__button {
+    font-size: 12px;
+    line-height: 26px;
+    padding: 1px 13px;
+    margin-top: 32px;
+  }
   .offer {
     padding-left: 0;
     padding-right: 0;
