@@ -1,3 +1,9 @@
+.header-contacts {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 42px;
+}
 .contact-us {
   background-image: url("../img/contacts_top.png");
   background-repeat: no-repeat;
@@ -15,6 +21,9 @@
   color: #fff;
 }
 .contact-us__subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
@@ -27,14 +36,12 @@
 
 .contacts {
   padding-top: 57px;
-  padding-bottom: 112px;
   padding-left: 56px;
   padding-right: 56px;
 }
 .contacts__wrapper {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 96px;
   align-items: center;
 }
 .contacts__info {
@@ -111,7 +118,7 @@
   border: 1px solid #356ead;
   box-sizing: border-box;
   border-radius: 10px;
-  padding: 21px 42px;
+  padding: 15px 42px;
   margin-top: 8px;
   margin-bottom: 32px;
   font-family: Roboto;
@@ -154,10 +161,20 @@
   color: #ffffff;
   border: none;
 }
+.map {
+  max-width: 1028px;
+  margin: 96px auto 112px auto;
+}
 
 /* MEDIA */
 
 @media (max-width: 1024px) {
+  .header-contacts {
+    padding-top: 18px;
+  }
+  .contact-us {
+    margin-top: 49px;
+  }
   .contacts__wrapper {
     display: flex;
     flex-direction: column;
@@ -166,11 +183,13 @@
   }
   .sending-form {
     margin-top: 64px;
-    margin-bottom: 64px;
   }
   .contacts {
     padding-top: 64px;
-    padding-bottom: 64px;
+  }
+  .map {
+    margin-top: 64px;
+    margin-bottom: 64px;
   }
 }
 @media (max-width: 667px) {
@@ -183,11 +202,36 @@
   }
 }
 @media (max-width: 480px) {
+  .contact-us {
+    background-position-x: center;
+    padding-top: 48px;
+    padding-bottom: 61px;
+    margin-top: 33px;
+  }
+  .contact-us__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .contact-us__subtitle {
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: 0px;
+  }
   .contacts__info {
     width: 100%;
   }
+  .contacts {
+    padding-top: 51px;
+  }
+  .title-h4 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
   .submit_btn {
     padding: 15px 57px;
+  }
+  .sending-form {
+    margin-top: 16px;
   }
   .form__label {
     font-size: 14px;
@@ -196,9 +240,14 @@
     margin-top: 5px;
     margin-bottom: 20px;
     height: 46px;
+    padding-left: 10px;
   }
   .form__textarea {
     height: 95px;
     margin-bottom: 34px;
+  }
+  .map {
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 }

@@ -189,8 +189,10 @@
   width: 495px;
 }
 .lets-talk__title {
-  width: 340px;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: normal;
+  width: 340px;
   font-size: 36px;
   line-height: 46px;
   letter-spacing: 0.05em;
@@ -200,7 +202,7 @@
 .lets-talk__text {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.05em;
@@ -242,6 +244,22 @@ hr {
   color: #ffffff;
   text-decoration: none;
   list-style-position: inside;
+}
+.info__list__item,
+.info__list__item_no-margin {
+  list-style-type: none;
+}
+.info__list__item:first-child::before {
+  content: "A.";
+  margin-right: 20px;
+}
+.info__list__item:nth-child(2)::before {
+  content: "T.";
+  margin-right: 20px;
+}
+.info__list__item_no-margin::before {
+  content: "E.";
+  margin-right: 20px;
 }
 .info__list a {
   color: #ffffff;
@@ -342,7 +360,7 @@ hr {
     padding-top: 18px;
   }
   .lets-talk__text {
-    margin-bottom: 40px;
+    margin-bottom: 32px;
   }
   .footer__button {
     padding: 3px 19px;
