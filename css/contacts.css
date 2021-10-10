@@ -189,4 +189,16 @@
   .submit_btn {
     padding: 15px 57px;
   }
+  .form__label {
+    font-size: 14px;
+  }
+  .form_item {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 46px;
+  }
+  .form__textarea {
+    height: 95px;
+    margin-bottom: 34px;
+  }
 }
