@@ -468,3 +468,9 @@ hr {
     text-align: center;
   }
 }
+@media (max-width: 360px) {
+  .span {
+    display: block;
+    margin-left: 37px;
+  }
+}

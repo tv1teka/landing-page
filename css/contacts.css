@@ -251,3 +251,21 @@
     margin-bottom: 32px;
   }
 }
+@media (max-width: 360px) {
+  .span {
+    display: block;
+    margin-left: 37px;
+  }
+  .title-h4 {
+    font-size: 16px;
+  }
+  .contacts__service-link {
+    font-size: 14px;
+  }
+  .contacts__phone-link {
+    font-size: 14px;
+  }
+  .form_item {
+    font-size: 13px;
+  }
+}
